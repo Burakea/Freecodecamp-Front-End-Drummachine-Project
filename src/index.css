@@ -1,0 +1,58 @@
+
+body{
+  background-color: #1c1c1c;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10rem;
+  color: #fff;
+}
+
+#display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem;
+  width: 100px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.drum-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.drum-pad{
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #333;
+  user-select: none;
+}
+
+.drum-pad:hover{
+  background-color: #d6d6d6;
+  color: #333;
+}
+
+.drum-pad:active{
+  background-color: #fff;
+  color: #333;
+}
+
+.range {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
